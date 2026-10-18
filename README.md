@@ -51,7 +51,7 @@ The Palette sidebar now prioritizes the selected palette, colors, and direct lin
 
 1. Save a **backup copy of your .blend** while Palette Studio 0.2 is still available. Existing palettes and assignments are saved inside the .blend.
 2. Go to **Edit > Preferences > Get Extensions > top-right menu > Install from Disk**.
-3. Select `Palette_Studio_v0.3.0_Blender_Extension.zip` **without extracting**.
+3. Select `palette_studio-0.3.0.zip` **without extracting**.
 4. Replace/update the previous `palette_studio` extension. Do not enable two installations of the same add-on. If Blender still shows the old UI, restart Blender.
 5. Open your saved project and find **3D View / Shader Editor > N sidebar > Palette**.
 
@@ -101,9 +101,9 @@ Source is included in the ZIP. License: GPL-3.0-or-later. Independently implemen
 
 ## Public GitHub distribution
 
-Source: https://github.com/Chiesu/magnetic-palette
+Source: https://github.com/Chiesu/palette-studio
 
-Download the compiled Blender Extension ZIP from the latest [GitHub Release](https://github.com/Chiesu/magnetic-palette/releases/latest), not the source-code ZIP shown by GitHub's green Code menu. Blender: **Edit > Preferences > Get Extensions > Install from Disk**.
+Download the installable Blender Extension ZIP from the latest [GitHub Release](https://github.com/Chiesu/magnetic-palette/releases/latest), not the source-code ZIP shown by GitHub's green Code menu. Blender: **Edit > Preferences > Get Extensions > Install from Disk**.
 
 The GitHub distribution is an independent experimental project. Changes to external provider APIs, or installed add-on versions, may require follow-up updates. See [PUBLIC-RELEASE.md](PUBLIC-RELEASE.md) for upgrade/licensing notes.
 
