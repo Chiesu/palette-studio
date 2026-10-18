@@ -1,0 +1,17 @@
+schema_version = "1.0.0"
+id = "palette_studio"
+version = "0.3.0"
+name = "Palette Studio"
+tagline = "Independent palettes and direct color-field linking"
+maintainer = "Magnetic Works contributors"
+type = "add-on"
+blender_version_min = "4.5.0"
+license = ["SPDX:GPL-3.0-or-later"]
+tags = ["Material", "Node"]
+
+[permissions]
+files = "Import or export palette JSON and GIMP .gpl swatches"
+clipboard = "Copy and paste sRGB hex color values"
+
+[build]
+paths_exclude_pattern = ["__pycache__/", "*.pyc", "*.pyo", "tests/", ".*"]
