@@ -103,7 +103,7 @@ Source is included in the ZIP. License: GPL-3.0-or-later. Independently implemen
 
 Source: https://github.com/Chiesu/palette-studio
 
-Download the installable Blender Extension ZIP from the latest [GitHub Release](https://github.com/Chiesu/magnetic-palette/releases/latest), not the source-code ZIP shown by GitHub's green Code menu. Blender: **Edit > Preferences > Get Extensions > Install from Disk**.
+Download the installable Blender Extension ZIP from the latest [GitHub Release](https://github.com/Chiesu/palette-studio/releases/latest), not the source-code ZIP shown by GitHub's green Code menu. Blender: **Edit > Preferences > Get Extensions > Install from Disk**.
 
 The GitHub distribution is an independent experimental project. Changes to external provider APIs, or installed add-on versions, may require follow-up updates. See [PUBLIC-RELEASE.md](PUBLIC-RELEASE.md) for upgrade/licensing notes.
 
