@@ -6,6 +6,8 @@ A Blender 4.5+ extension for scene-wide art-direction looks: independently named
 
 ### 1. Fixed: Base Color node-link crash on Blender 5.2
 
+<img width="1920" height="1080" alt="hero" src="https://github.com/user-attachments/assets/796ceed3-bbbb-42ae-9dac-ab8a2b99dd77" />
+
 Previous versions attempted to store an embedded `Material.node_tree` directly inside a `PointerProperty`. Blender disallows that and raised:
 
 ```
@@ -41,6 +43,9 @@ Supported right-click fields: Object Color, Material Viewport Color, Light Color
 
 ### 4. Selected node color pickers
 
+<img width="1920" height="1080" alt="selected-node-colors" src="https://github.com/user-attachments/assets/b1b2c631-a1c3-4653-9de3-5559863f82ff" />
+
+
 In the Shader Editor, select one or more nodes. **03 SELECTED NODE COLORS** displays editable RGBA inputs and ColorRamp stops as color chips, each with a chain and eyedropper. You can give one Principled material a `Base`, `Emission`, and `Coat` palette color independently. A socket already connected by a node link is shown as locked and is not overwritten.
 
 ### 5. More compact defaults
@@ -61,6 +66,8 @@ Projects last saved with v0.1 will still be migrated to palette-local colors/ass
 
 ## Recommended workflow: Day / Night look
 
+<img width="1920" height="1080" alt="color-swatches" src="https://github.com/user-attachments/assets/34357a5f-aec3-4e2c-842a-3405c2448e44" />
+
 1. Select `Day`, select or create `Warm Key`, select a light and click **Link** next to `Light Color`.
 2. Select `Warm Wall`, select the wall material, then click **Link** next to `Shader Base`. You can also right-click the actual Base Color field and choose **Link this color to selected swatch**.
 3. Duplicate `Day` using **05 PALETTE MANAGEMENT > Duplicate**. This copies the color list and all assignments into a new, independent palette.
@@ -70,6 +77,8 @@ Projects last saved with v0.1 will still be migrated to palette-local colors/ass
 **One color can control many targets**. The same swatch can be assigned to many materials, sockets, ColorRamp stops, and lights. **One target can have one color at a time within each palette**, and different colors across different palettes. Different sockets of the same material may have different swatches in a single palette.
 
 ## Existing behaviors retained from 0.2
+
+<img width="1920" height="1080" alt="assignments" src="https://github.com/user-attachments/assets/917acbba-dd38-4d77-a55b-d0cb47c85093" />
 
 - Add, duplicate, rename, delete, and switch independent palettes; derive Warm, Cool, Muted, Darker, or Lighter variants.
 - Create named swatches, change sRGB HEX or Blender linear RGB/RGBA values, copy/paste HEX, reorder or delete swatches.
