@@ -2,11 +2,11 @@
 
 A Blender 4.5+ extension for scene-wide art-direction looks: independently named colors per palette, multiple material/light/node targets per color, and one-click switching between palettes. No subscriptions, accounts, or external services.
 
+<img width="1920" height="1080" alt="hero" src="https://github.com/user-attachments/assets/796ceed3-bbbb-42ae-9dac-ab8a2b99dd77" />
+
 ## What changed in 0.3.0
 
 ### 1. Fixed: Base Color node-link crash on Blender 5.2
-
-<img width="1920" height="1080" alt="hero" src="https://github.com/user-attachments/assets/796ceed3-bbbb-42ae-9dac-ab8a2b99dd77" />
 
 Previous versions attempted to store an embedded `Material.node_tree` directly inside a `PointerProperty`. Blender disallows that and raised:
 
